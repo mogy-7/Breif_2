@@ -1,0 +1,27 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%;
+}
+body{
+    font-family: "work sans", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    margin: 2%;
+}
+ header .container ul  {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.container ul li {
+      padding:0  20px;
+     
+}
