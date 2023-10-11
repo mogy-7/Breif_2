@@ -8,7 +8,8 @@
 body{
     font-family: "work sans", sans-serif;
     background-image: url(hero-background.jpg);
-    
+    margin-left: -10%;
+    margin-right: -10%;
 }
 
 header {
@@ -58,6 +59,18 @@ section ul {
     padding-bottom:  20px;
 
 }
+
+section a {
+    display: flex;
+    width: 170px;
+    margin-top: 10px;
+    background-color: #000;
+    color: white;
+}
+/* section a:hover {
+    background-color: white;
+    color: #000;
+} */
 
 ul{
     list-style: none;
