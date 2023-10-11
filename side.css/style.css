@@ -19,13 +19,7 @@ header {
 /* header {
     background-color:#f6f0f0ea;
 } */
-a {  
-    color: #000;
-    text-decoration: none;
-    padding: 5px ;
-    border: 2px solid black;
-    border-radius: 5px;
-}
+
 .container ul a {
 
     border: 0;
@@ -106,4 +100,12 @@ footer .container ul {
 }
 footer .container ul li{
     margin-bottom: 15px;
+}
+
+a {  
+    color: #000;
+    text-decoration: none;
+    padding: 5px ;
+    border: 2px solid black;
+    border-radius: 5px;
 }
