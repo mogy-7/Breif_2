@@ -8,6 +8,11 @@
 body{
     font-family: "work sans", sans-serif;
 }
+
+header {
+    background-color:#eaeaeaea;
+    margin-top: -2%;
+}
 a{
     text-decoration: none;
 }
@@ -19,11 +24,13 @@ a{
     margin: 2%;
 }
  header .container ul  {
+   
     display: flex;
     justify-content: space-between;
+    list-style: none;
  
 }
 .container ul li {
       padding:0  20px;
-     
+    
 }
