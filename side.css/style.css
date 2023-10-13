@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6,7 +8,7 @@
   padding: 0%;
 }
 body {
-  font-family: "work sans", sans-serif;
+  font-family: "Young Serif", serif;
   background-image: url(hero-background.jpg);
   margin-left: -10%;
   margin-right: -10%;
@@ -54,10 +56,10 @@ section ul {
 }
 
 section a {
-    text-align: center;
-    margin-top: 10px;
-    background-color: #000;
-    color: white;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #000;
+  color: white;
 }
 /* section a:hover {
     background-color: white;
@@ -75,6 +77,7 @@ section {
 section h2,
 p {
   width: 600px;
+  margin-bottom: 20px;
 }
 .secimg {
   width: 600px;
@@ -163,54 +166,90 @@ section h3 {
   right: 70px;
 }
 
-#about-place ul li{
-    display: flex;
-    justify-content: space-between;
+#about-place ul li {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* <---end guide--> */
 /* <--start contact us---> */
 
-
 section .container div input {
-    display: flex;
-    margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 #contact input,
 #contact textarea {
-    width: 300px;
-    height: 50px;
-    padding:10px;
-    resize: none;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  resize: none;
 }
 
 #contact input[type="submit"] {
-    background-color: #000;
-    color: white;
-    margin-top: 20px;
-    cursor: pointer;
+  background-color: #000;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 /* <---end guide--> */
 /* <--start contact us---> */
 
 #about .icon {
-    display: flex;
-    justify-content: space-evenly;
-    /* margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 20px;
     margin-left: 10px;
     padding-right: 10px; */
 }
 
 iframe {
-    width: 100%;
+  width: 100%;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #about a {
-    margin-left: 300px;
-    padding: 1.2%;
+  margin-left: 300px;
+  padding: 1.2%;
+}
+
+.flaight {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flaight div {
+  background-color: #d6d0d0;
+  width: 250px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.flaight div h2 {
+  margin-top: 10px;
+}
+
+.flaight div .icon {
+width:150px;
+/* margin-right: 20px;   */
+}
+
+.flaight-buton {
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 50px;
+  padding: 15px;
+  background-color: #000;
+  color: white;
+  border-radius: 7px;
+}
+.flaight-buton:hover {
+  background-color: white;
+  color: #000;
+  border: 4px solid black;
+  
 }
