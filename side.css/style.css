@@ -54,11 +54,10 @@ section ul {
 }
 
 section a {
-  display: flex;
-  width: 170px;
-  margin-top: 10px;
-  background-color: #000;
-  color: white;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #000;
+    color: white;
 }
 /* section a:hover {
     background-color: white;
@@ -191,4 +190,27 @@ section .container div input {
     color: white;
     margin-top: 20px;
     cursor: pointer;
+}
+
+/* <---end guide--> */
+/* <--start contact us---> */
+
+#about .icon {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 20px;
+    margin-left: 10px;
+    padding-right: 10px; */
+}
+
+iframe {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+
+#about a {
+    margin-left: 300px;
+    padding: 1.2%;
 }
